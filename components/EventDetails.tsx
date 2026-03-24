@@ -172,7 +172,7 @@ const EventDetails = async ({ params }: { params: Promise<string> }) => {
 							</p>
 						)}
 
-						<BookEvent />
+						<BookEvent eventId={event._id} slug={slug} />
 					</div>
 				</aside>
 			</div>
